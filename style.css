@@ -108,12 +108,20 @@ body{
 
 /* PARTIE MOBILE */
 @media (max-width: 480px) {
+    .card{
+        width: 100%;
+    }
     .search button{
         display: none;
     }
+    .search input{
+        width: 90%;
+    }
+    .search input::placeholder{
+        font-size:0.8em;
+    }
     .details{
         flex-direction: column;
-        /* text-align: center; */
         justify-content: space-around;
         align-items: left;
         margin-top: 20px;
